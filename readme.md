@@ -10,7 +10,7 @@ La comunicazione tra le varie parti del sistema avviene dal livello più alto al
 
 Di seguito il modello ER usato per la progettazione del database.
 
-![](doc/ER.png)
+![](doc/ER.PNG)
 
 
 
