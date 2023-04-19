@@ -17,3 +17,7 @@ Di seguito il modello ER usato per la progettazione del database.
 Di seguito il diagramma UML delle classi usato per la progettazione della logica applicativa. Non sono mostrati classi e metodi dipendenti dall'implementazione, come getter, setter, costruttori, e funzioni di libreria.
 
 ![](doc/classi.png)
+
+La struttura delle classi riprende quella del database e aggiunge le funzionalità di competenza.
+
+Leggere il manuale per ulteriori informazioni.
