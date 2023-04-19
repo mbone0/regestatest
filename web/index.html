@@ -1,0 +1,65 @@
+
+<!--<!DOCTYPE html>-->
+<html>
+<head>
+    <title>Regesta test</title>
+	<script src="lib.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+    <br>
+	<br><div class="instruction" id="instruction">
+	<p>	instructions:<br><br>
+		1) enter program home path and click the two initialize buttons<br>
+		2) Select a good, a quantity, a time, and the type of search<br>
+		3) click Search to query the database</p>
+	</div>
+	<label for="homepath">project home folder:</label>
+	<input type="text" id="homepath" name="homepath">
+	<br>
+    <br>
+	<button onclick="init1()">initialize1</button>
+	<button onclick="init2()">initialize2</button>
+	<br>
+    <br>
+	<br>
+	<hr>
+	<br>
+    <br>
+	<br>
+	product: 
+	<select id="goodsCombobox">
+		<option value="1">waiting initialization...</option>
+    </select>
+	<br>
+	<br>
+	<label for="quantity">quantity:</label>
+	<input type="text" id="quantity" name="quantity"><br>
+	<br>
+	time:
+	<select id="timeCombobox">
+        <option value="1">waiting initialization...</option>
+    </select>
+	<br>
+	<input type="checkbox" id="checkboxSpeed" name="checkboxSpeed">
+	<label for="checkboxSpeed">prefer speed to price</label>
+	<br>
+	<br>
+    <button id="buttonsearch" onclick="search1()">Search</button>
+	<button id="buttonsearch" onclick="search2()">Pull Result</button>
+	<br>
+	
+	<br>
+	<br>
+	<br>
+    <hr>
+	<br>
+	<br>
+	<br>
+    
+	<div class="resultText" id="resultText">
+	<p>	waiting for the result...</p>
+	</div>
+    
+</body>
+</html>

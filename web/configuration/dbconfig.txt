@@ -1,0 +1,4 @@
+localhost
+mydb
+root
+mysql123
