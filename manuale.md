@@ -1,5 +1,7 @@
 # Installazione
 
+- Installare oracle mysql 8 community edition
+
 - Decidere una cartella radice (d'ora in poi chiamata `base`)
 
 - Compilare ed esportare il codice java in formato jar (d'ora in poi il file è chiamato `nomejar`) in un percorso a scelta (d'ora in poi chiamato `percorsojar`)
@@ -13,7 +15,7 @@
 - Aprire Firefox
 - Digitare nella barra degli indirizzi `about:config`
 - Cercare il valore `security.fileuri.strict_origin_policy false` e metterlo a falso
-- Installare oracle mysql 8 community edition
+
 - Aprire la cartella `db` ed eseguire gli script per creare il database e riempirlo dei dati della consegna. Potrebbe essere necessario personalizzare lo script per cambiare il nome del database.
 
 - Copiare il contenuto di `web` in `base`
